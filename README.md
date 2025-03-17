@@ -10,7 +10,17 @@ CSS
 
 JavaScript
 
-Funcionalidades
+Estrutura de Arquivos
+/EcoGrow
+
+│-- front/
+│   │-- cadastro.html
+│   │-- login.html
+|   |-- pergunta.html
+|   |-- pgPrincipal.html
+|   |-- interaçôes.js
+|   |-- style.css
+│-- imagens/
 
 Autor
 
