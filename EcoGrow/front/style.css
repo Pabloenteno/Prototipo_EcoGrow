@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 12vh;
+    background-color: #476826;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#ecogrow{
+   font-size: 6.5vh;
+}
+main{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9DAC4;
+}
+.section{
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid black 1px;
+    color: white;
+    gap: 30px;
+    background-color: #476826;
+    border-radius: 22px;
+   
+}
+.sectionLogar{
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    background-color: #476826;
+    border-radius: 22px;
+}
+
+button{
+border: none;
+border-radius: 30px;
+height: 6vh;
+width: 15vw;
+font-weight: bold;
+font-size: xx-large;
+color:#EF813E ;
+background-color: #476826;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+button:active{
+border: none;
+border-radius: 30px;
+height: 6vh;
+width: 15vw;
+font-weight: bold;
+font-size: xx-large;
+color:#EF813E ;
+background-color: #476826;
+box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3),
+inset -4px -4px 8px #476826;
+}
+input{
+height: 4vh;
+color: white;
+width: 25vw;
+border: solid ,#354d1d , 0.5px;
+outline: none;
+font-size: larger;
+padding-left: 5px;
+background-color: #476826;
+box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3),
+            inset -4px -4px 8px #476826;
+           
+border-radius: 5px;
+
+}
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+img{
+    height: 9vh;
+}
+#pesquisa{
+border: 3px solid #EF813E;
+width: 35vw;
+padding-left: 20px;
+border-radius: 30px;
+
+}
+#pesquisa::placeholder{
+    color: #EF813E;
+  
+    font-weight: bold;
+}
+#cabeca{
+display: flex;
+justify-content: space-around;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.conteudo{
+    height: 44.5vh;
+    width: 19.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #476826;
+    border-radius: 22px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.linhaUm{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-direction: row;
+ padding-top: 5px;
+ padding-bottom: 10px;
+}
+.linhaDois{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agua{
+    height: 3vh;
+}
+.gota{
+    height: auto;
+}
+.imagemPrincipal{
+    height: auto;
+}
+.v1{
+    height: 5vh;
+}
+.v2{
+    height: 6vh;
+    opacity: 40%;
+}
+.v3{
+height: 7vh;
+opacity: 40%;
+}
+.sol{
+    height: 7vh;
+    
+}
+
+.plantas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.linhaPlantas{
+    margin-top: 5vh;
+
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+    flex-direction: row;
+    
+
+}
+#mainPg{
+height: auto;
+display: flex;
+flex-direction: row;
+align-items: stretch;
+}
+#barraLaranja{
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 10vw;
+background-color: #EF813E;
+}
+.imagemLado{
+    height: 11vh;
+    margin-top: 30px;
+}
+.imagemLado:active {
+    filter: grayscale(0.7); /* 70% de tons de cinza */
+    opacity: 0.5; /* Reduz um pouco a opacidade */
+}
+.pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color:#476826 ;
+    height: 25vh;
+    width: 40vw;
+}
+.linhaPergunta{
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    width: 36vw;
+}
+.headerPergunta{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+#voltar{
+    margin-right: 24%;
+    margin-left: 1%;
+}
